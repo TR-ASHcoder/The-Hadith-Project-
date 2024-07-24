@@ -16,7 +16,7 @@
   
   h6{
     font-family: two;
-    text-shadow: 1px 0 0 #ffffff, 0 -1px 0 #ffffff, 0 1px 0 #ffffff, -1px 0 0 #fdfdfd;
+
     font-size:x-small;
   }
 
@@ -62,7 +62,7 @@ body{
   text-align: center;
   min-height: 100px;
   padding: 10px 40px;
-  box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+  box-shadow: 0 5px 65px rgba(75, 17, 21, 0.5);
 }
 
 /* start of blur anim */
@@ -92,7 +92,8 @@ button {
   color: #ffffff;
   cursor: pointer;
   background-color: #1b1d0280;
-  border: none;
+  border:#ffffff ;
   padding: 15px 45px;
   border-radius: 5px;
+  box-shadow:  3px 2px rgba(0, 0, 0, 0.466);
 }
