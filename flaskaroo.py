@@ -17,6 +17,6 @@ def get_hadith():
 @app.route('/')
 def index():
     hadith, fact, narr, chap = get_hadith()
-    return render_template("index.html", hadith = hadith, fact = fact, narr = narr, chap = chap)
+    return render_template("index.html", hadith = hadith, fact = ref, narr = narr, chap = chap)
  
 app.run(host="0.0.0.0", port=8080)
