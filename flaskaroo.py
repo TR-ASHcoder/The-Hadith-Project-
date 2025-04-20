@@ -20,3 +20,5 @@ def index():
     return render_template("index.html", hadith = hadith, fact = fact, narr = narr, chap = chap)
  
 app.run(host="0.0.0.0", port=8080)
+
+# made by TR ASH
